@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Password</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="consulta">
+            <label id="titulo">Genera tu contraseña</label>
+            <div id="ingreso">
+                <label for="password">Ingresa una palabra</label>
+                <input type="text" id="password">
+                <button id="botonGenerar">Generar</button> 
+            </div>
+        </div>
+        <div id="resultado">
+            <label id="texto"></label>
+            <button id="botonGuardar">Guardar</button>        
+        </div>
+        <div id="baseDatos">
+            <label>Base de Datos</label>
+            <button id="consultarBD">Consultar</button>
+            <div>
+                <table id="palabras_db">
+                    <thead>
+                        <th>ID</th>
+                        <th>PALABRA</th>
+                        <th>CODIGO</th>
+                        <th>FECHA</th>
+                    </thead>
+                    <tbody></tbody>
+                     <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>6</td>
+                        <td>7</td>
+                        <td>8</td>
+                    </tr>
+                    <!--info -->
+                    </tbody>
+                    
+                </table>
+            </div>        
+        </div>
+        <script type="text/javascript" src="index.js"></script>
+    </body>
+</html>

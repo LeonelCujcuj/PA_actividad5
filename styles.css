@@ -1,0 +1,38 @@
+div{
+    border-width: thin;
+    border-style: groove;
+    text-align: center;
+    background-color: lightgray;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+label{
+    clear: both;
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+#resultado{
+    display: none;
+}
+
+#baseDatos{
+    display: none;
+}
+
+#palabras_db{
+    display: none;
+}
+
+#botonGuardar{
+    display: none;
+}
+
+#titulo{
+    font-size: larger;
+    margin: 10px 10px 10px 10px;
+}
